@@ -4,22 +4,22 @@
 
 ## Overview
 
-Template repository for a .NET library sandbox including unit tests.
+Template repository for a .NET console app sandbox WITHOUT unit tests.
 
 > [!NOTE]
 > After cloning, remember to init/update the submodules. See [https://github.com/teqbench/teqbench.dev](https://github.com/teqbench/teqbench.dev) for more information.
 
 ### Update Template Names
 
-Update all following instances of `TeqBench.Dev.Templates.Sandbox.DotNet.Library`:
+Update all following instances of `TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp`:
 
 - Solution name
-    - TeqBench.Dev.Templates.Sandbox.DotNet.Library.sln
+    - TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp.sln
 - Project names
-    - TeqBench.Dev.Templates.Sandbox.DotNet.Library.csproj
-    - TeqBench.Dev.Templates.Sandbox.DotNet.Library.Tests.csproj
-- RootNamespace in TeqBench.Dev.Templates.Sandbox.DotNet.Library.csproj
-- AssemblyName in TeqBench.Dev.Templates.Sandbox.DotNet.Library.csproj
+    - TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp.csproj
+    - TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp.Tests.csproj
+- RootNamespace in TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp.csproj
+- AssemblyName in TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp.csproj
 
 ### Update Repository Settings
 

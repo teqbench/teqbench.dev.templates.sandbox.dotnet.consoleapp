@@ -6,9 +6,14 @@
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Tooling.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Versioning.props" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
 	<PropertyGroup>
 		<Description>Template repository for a .NET library sandbox including unit tests</Description>
-		<RootNamespace>TeqBench.Dev.Templates.Sandbox.DotNet.Library</RootNamespace>
-		<AssemblyName>TeqBench.Dev.Templates.Sandbox.DotNet.Library</AssemblyName>
+		<RootNamespace>TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp</RootNamespace>
+		<AssemblyName>TeqBench.Dev.Templates.Sandbox.DotNet.ConsoleApp</AssemblyName>
 	</PropertyGroup>
 </Project>
