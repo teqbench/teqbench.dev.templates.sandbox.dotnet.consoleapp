@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+	Import common project file settings via teqbench.dev submodule.
+	-->
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Tooling.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Versioning.props" />
+	<PropertyGroup>
+		<Description>Template repository for a .NET library sandbox including unit tests</Description>
+		<RootNamespace>TeqBench.Dev.Templates.Sandbox.DotNet.Library</RootNamespace>
+		<AssemblyName>TeqBench.Dev.Templates.Sandbox.DotNet.Library</AssemblyName>
+	</PropertyGroup>
+</Project>
