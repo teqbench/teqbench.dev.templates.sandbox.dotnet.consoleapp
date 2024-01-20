@@ -1,4 +1,4 @@
-# TeqBench Sandbox Library Solution/Project Template
+# TeqBench Sandbox .NET Console App Solution/Project Template
 
 ![Build Status Badge](.badges/build-status.svg) ![Build Number Badge](.badges/build-number.svg) ![Coverage](.badges/code-coverage.svg)
 
