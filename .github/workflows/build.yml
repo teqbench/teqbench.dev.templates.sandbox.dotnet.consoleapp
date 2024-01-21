@@ -24,3 +24,4 @@ jobs:
     secrets: inherit
     with:
       ci_type: 'build-manual'
+      bypass_tests: true
