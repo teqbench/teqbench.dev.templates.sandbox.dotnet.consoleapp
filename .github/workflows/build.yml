@@ -24,4 +24,6 @@ jobs:
     secrets: inherit
     with:
       ci_type: 'build-manual'
+      # Console sandbox template does not include unit tests, so bypass tests as part of CI/build workflow.
+      # If want to add unit tests, remove 'bypass_tests' parameter below.
       bypass_tests: true
